@@ -56,8 +56,6 @@ Currently you will have to add a market object with the correct settings in the 
 
 You can temporarily stop loading a market from the frontend, or remove the market by deleting the object in `settings.js`
 
-For more information see the [wiki](https://github.com/manu354/arbitrage/wiki/How-to-add-a-market) on adding markets.
-
 ## Built and deployed with
 
 * [Node.JS](https://nodejs.org) - For the backend
