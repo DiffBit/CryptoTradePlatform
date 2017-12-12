@@ -76,6 +76,6 @@ See the [LICENSE.md](LICENSE.md) file for details
 
 ## Donating
 
-BTC: 1LGuJchewvHovpzwoGnswxYbfAfPfNq4Uc
-ETH: 0x9db93092debc4da9f72a259eee8a65ad81a677b6
-LTC: LVJkTsLn7RtxQfF4sCJyeiX2h31URj9M4n
+* BTC: 1LGuJchewvHovpzwoGnswxYbfAfPfNq4Uc
+* ETH: 0x9db93092debc4da9f72a259eee8a65ad81a677b6
+* LTC: LVJkTsLn7RtxQfF4sCJyeiX2h31URj9M4n
