@@ -4,10 +4,6 @@ function history(coin1, coin2) {
     alert('History graphs coming soon', coin1, coin2);
 }
 
-
-
-//alert("Needs to be run locally.");
-
 let checkedMarkets = {
         showAll: true,
         bittrex: true,
@@ -274,11 +270,11 @@ $(window).load(function () {
     let waitForMoreData;
 
     socket.on('results', function (results) {
-        clearTimeout(waitForMoreData); //Every time we recieive new data clear the previous timeout so we don't loop through the data too many times unnecessarily...
+        clearTimeout(waitForMoreData);
         numberOfLoads++;
-        if (numberOfLoads === 1) { //...unless we haven't loaded the data yet, then just run useData() immediately.
-            $('.socket-loader').hide(); // Hide the preloader.gif
-            $('#highest, #lowest').show(); //Show The UL
+        if (numberOfLoads === 1) {
+            $('.socket-loader').hide();
+            $('#highest, #lowest').show();
             data = results;
             useData();
         }
@@ -287,7 +283,7 @@ $(window).load(function () {
             waitForMoreData = setTimeout(function () {
                 data = results;
                 useData();
-            }, 1000); //Wait a second before we run the function in case we get newer data within less than a second
+            }, 1000);
         }
 
     });
