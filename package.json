@@ -14,7 +14,8 @@
     "mongoose": "^4.11.5",
     "pm2": "^2.6.1",
     "request": "^2.81.0",
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.0.4",
+    "node-telegram-bot-api":"^0.29.0"
   },
   "scripts": {
     "test": "node main",
@@ -42,7 +43,11 @@
     "strategy",
     "trading",
     "btc",
-    "eth"
+    "eth",
+    "hft",
+    "alt-coin",
+    "coinbase",
+    "ripple"
   ],
   "author": "DiffBit",
   "license": "GNU",

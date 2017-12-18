@@ -103,8 +103,6 @@ function searchMarketsOrCoins(marketOrCoin, input) {
             (text.indexOf(input) >= 0) ? $(this).show() : $(this).hide();
         });
     }
-
-
 }
 
 let useData;
@@ -285,11 +283,5 @@ $(window).load(function () {
                 useData();
             }, 1000);
         }
-
     });
-
 });
-
-
-
-
