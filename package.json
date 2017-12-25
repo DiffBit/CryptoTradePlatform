@@ -12,10 +12,11 @@
     "helmet": "^3.6.1",
     "mongodb": "^2.2.30",
     "mongoose": "^4.11.5",
-    "node-telegram-bot-api": "^0.29.0",
     "pm2": "^2.6.1",
     "request": "^2.81.0",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.0.4",
+    "node-telegram-bot-api": "^0.29.0",
+    "messaging-api-telegram": "^0.6.2"
   },
   "scripts": {
     "test": "node main",
@@ -43,7 +44,11 @@
     "strategy",
     "trading",
     "btc",
-    "eth"
+    "eth",
+    "hft",
+    "alt-coin",
+    "coinbase",
+    "ripple"
   ],
   "author": "DiffBit",
   "license": "GNU",
